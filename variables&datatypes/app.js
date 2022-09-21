@@ -1,8 +1,7 @@
-let ainePunktid = 3;
-let nadalad = 10;
+let ohuTemp = Number(prompt("Sisestage õhutemperatuur: "));
 
-// Arvutan
-let tunnid = ainePunktid * 26
-let nadalasToimetan = tunnid / nadalad;
-
-console.log(Math.ceil(nadalasToimetan))
+if (ohuTemp > 4) {
+    console.log("Väljas ei ole jäätumis ohtu!")
+} else {
+    console.log("Väljas on jäätumis oht!")
+}
