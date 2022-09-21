@@ -28,6 +28,8 @@ console.log(numberOne)
 console.log(numberTwo)
 console.log(season)
 
+ // Tund 9/21/2022
+
 let aasta = 2016;
 let president = "Kersti Kaljulaid"
 let lauseKeskosa = ". aastal valiti Eesti presidentiks "
@@ -35,9 +37,11 @@ let lause = aasta + lauseKeskosa + president
 
 console.log(lause)
 
-let astmeAlus = 2
-let astendaja = 4
+// kasutaja sisend
+let astmeAlus = Number(prompt("Sisestage astme alus: "));
+let astendaja = Number(prompt("Sisestage astendaja: "));
 
-let tulemus = Math
+// arvutame tulemuse
+let tulemus = Math.pow(astmeAlus, astendaja)
 
-console.log()
+console.log(tulemus)
