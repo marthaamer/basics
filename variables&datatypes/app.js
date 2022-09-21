@@ -1,11 +1,8 @@
-// Andmete sisestamine
-let userName = String(prompt("Sisestage nimi: "));
-let lubatudKiirus = Number(prompt("Sisetage lubatud kiirus: "));
-let tegelikKiirus = Number(prompt("Sisetage tegelik kiirus: "));
+let ainePunktid = 3;
+let nadalad = 10;
 
-// Arvutamine
-let trahviSumma = (tegelikKiirus - lubatudKiirus) * 3;
-trahviSumma = Math.min(trahviSumma, 190);
+// Arvutan
+let tunnid = ainePunktid * 26
+let nadalasToimetan = tunnid / nadalad;
 
-// Tulemuse välastamine
-console.log(`${userName}, kiiruse ületamise eest on teie trahv ${trahviSumma} eurot.`)
+console.log(Math.ceil(nadalasToimetan))
