@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb652816-747e-447e-88f4-efa7a17bdcb0" name="Changes" comment="ÜL 2.3 Pulss">
+    <list default="true" id="fb652816-747e-447e-88f4-efa7a17bdcb0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/variables&amp;datatypes/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/variables&amp;datatypes/app.js" afterDir="false" />
     </list>
@@ -67,7 +67,7 @@
       <workItem from="1663142519097" duration="148000" />
       <workItem from="1663144333437" duration="898000" />
       <workItem from="1663745012181" duration="4408000" />
-      <workItem from="1663845227266" duration="3035000" />
+      <workItem from="1663845227266" duration="4673000" />
     </task>
     <task id="LOCAL-00001" summary="ÜL 1.3 Astendamine">
       <created>1663747326163</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663845625046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ÜL 2.3 Pulss">
+      <created>1663848296560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663848296560</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
