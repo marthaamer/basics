@@ -1,7 +1,6 @@
-let ohuTemp = Number(prompt("Sisestage õhutemperatuur: "));
+let inimesiKokku = 100;
+let istekohtiKokku = 80;
 
-if (ohuTemp > 4) {
-    console.log("Väljas ei ole jäätumis ohtu!")
-} else {
-    console.log("Väljas on jäätumis oht!")
-}
+let mahaJaanudInimesed = inimesiKokku % 80;
+
+console.log(`Bussist jäi maha: ${mahaJaanudInimesed} inimest.`)
