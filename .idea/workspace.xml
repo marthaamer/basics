@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb652816-747e-447e-88f4-efa7a17bdcb0" name="Changes" comment="">
+    <list default="true" id="fb652816-747e-447e-88f4-efa7a17bdcb0" name="Changes" comment="ÜL 2.3 Pulss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/variables&amp;datatypes/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/variables&amp;datatypes/app.js" afterDir="false" />
     </list>
@@ -67,7 +67,7 @@
       <workItem from="1663142519097" duration="148000" />
       <workItem from="1663144333437" duration="898000" />
       <workItem from="1663745012181" duration="4408000" />
-      <workItem from="1663845227266" duration="303000" />
+      <workItem from="1663845227266" duration="3035000" />
     </task>
     <task id="LOCAL-00001" summary="ÜL 1.3 Astendamine">
       <created>1663747326163</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663749164203</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ÜL 1.6 Trasnpordi organiseermine">
+      <created>1663845625046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663845625046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +115,8 @@
     <MESSAGE value="ÜL 1.4 Trahv" />
     <MESSAGE value="ÜL 1.5 Nädala ajakuju" />
     <MESSAGE value="ÜL 2.1 Jäätumine" />
-    <option name="LAST_COMMIT_MESSAGE" value="ÜL 2.1 Jäätumine" />
+    <MESSAGE value="ÜL 1.6 Trasnpordi organiseermine" />
+    <MESSAGE value="ÜL 2.3 Pulss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ÜL 2.3 Pulss" />
   </component>
 </project>
