@@ -1,11 +1,5 @@
-var inputSize = Number(prompt('Sisetage kirja suurus'))
-var inputTitle = String(prompt('Sisetage kirja teema pealkiri'))
-var inputHasFile = String(prompt('Kas kirjal on file?'))
+let mituKordaAratada = Number(prompt('Mitu korda äratada?'))
 
-inputHasFile = inputHasFile == 'jah' && true || inputHasFile == 'ei' && false
-
-if ((!inputHasFile && inputSize > 1 ) || inputTitle.length < 1) {
-    console.log('Kiri on spämm.')
-} else {
-    console.log('Kiri ei ole spämm.')
+for (let i = 0; i < mituKordaAratada; i++) {
+    console.log('Tõuse ja sära!')
 }
