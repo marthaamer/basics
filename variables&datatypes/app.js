@@ -1,23 +1,11 @@
-var Lause = "Istekoht loositi, "
+var inputSize = Number(prompt('Sisetage kirja suurus'))
+var inputTitle = String(prompt('Sisetage kirja teema pealkiri'))
+var inputHasFile = String(prompt('Kas kirjal on file?'))
 
-let selectionType = String(prompt("Kas soovite valida koha ise ('ise') või loosiga ('loos')?"))
-if (selectionType == "ise") {
-    let seatLocation = String(prompt("Kas soovite istuda akna kõrval ('aken') või tahate istuda mujal ('muu')?"));
+inputHasFile = inputHasFile == 'jah' && true || inputHasFile == 'ei' && false
 
-    if (seatLocation === "aken") {
-        seatLocation = "Aknakõrval"
-    } else {
-        seatLocation = "Vahekäigukoht"
-    }
-
-    Lause = `Istekoht valiti ise, ${seatLocation}`
-}
-
-let chance = Math.ceil(Math.random() * 3);
-if (chance == 1) {
-    Lause = Lause + 'Aknakõrval.'
+if ((!inputHasFile && inputSize > 1 ) || inputTitle.length < 1) {
+    console.log('Kiri on spämm.')
 } else {
-    Lause = Lause + 'Vahekäigukoht.'
+    console.log('Kiri ei ole spämm.')
 }
-
-console.log(Lause);
