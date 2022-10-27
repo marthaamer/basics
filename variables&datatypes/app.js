@@ -1,15 +1,10 @@
-let inputCycleCount = Number(prompt('Sisestage ringide arv.'))
+let numAskers = Number(prompt("Mitu pöialpoissi tahab õunu? Kuni 7"))
+const maxApples = 14;
 
-if ((inputCycleCount % 2) == 1) {
-    inputCycleCount -= 1;
+let totalApples = 0;
+for (let i = 0; i < numAskers; i++) {
+    let apples = Math.floor(Math.random() * 2) + 1; totalApples += apples;
+    console.log(apples)
 }
 
-let totalCycles = inputCycleCount / 2;
-let cycle = 0;
-
-let totalCarrots = 0; let carrots = 2
-while (cycle < totalCycles) {
-    totalCarrots += carrots; carrots += 2; cycle +=1;
-}
-
-console.log(`Progandite koguarv on: ${totalCarrots}`)
+console.log("Lumivalgeksele jäi " + (maxApples - totalApples))
