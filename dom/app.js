@@ -2,7 +2,7 @@ const form = document.querySelector('#add-task');
 
 form.addEventListener('submit', addTask)
 
-var totalItems = 0
+var totalItems = 2
 
 function addTask(e) {
     let taskInput = document.querySelector('#task');
@@ -17,6 +17,8 @@ function addTask(e) {
 
     x.setAttribute('id', 'close-button-' + totalItems++)
     x.setAttribute('onclick', 'deleteTask(this.id)')
+
+
     x.className = 'secondary-content'
 
     li.appendChild(x)
@@ -29,5 +31,14 @@ function addTask(e) {
     e.preventDefault()
 }
 function deleteTask(id) {
-    document.getElementById(id).parentElement.remove()
+    if (confirm('Are you sure you want to delete this item?')) {
+        document.getElementById(id).parentElement.remove()
+    }
+}
+
+let taskList = document.querySelector('u')
+function deleteTasks () {
+   while (taskList.firstChild) {
+       taskList.removeChild(taskList.firstChild)
+   }
 }

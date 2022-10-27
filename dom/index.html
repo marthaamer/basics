@@ -37,10 +37,12 @@
                     <p class="card-title">Tasks</p>
                     <ul class="collection">
                         <li class="collection-item">Study HTML
-                            <a href="#" class="secondary-content">X</a>
+                            <a href="#" onclick="deleteTask(this.id)" id="close-button-0" class="secondary-content">X</a>
                         </li>
-                        <li class="collection-item">Study JS <a href="#" class="secondary-content">X</a></li>
+                        <li class="collection-item">Study JS <a href="#" onclick="deleteTask(this.id)" id="close-button-1" class="secondary-content">X</a></li>
                     </ul>
+
+                    <a href="#" class="btn" onclick="deleteTasks()">Delete All</a>
                 </div>
             </div>
         </div>
